@@ -1,0 +1,60 @@
+body {
+  background-color:#F9F8FE;
+}
+
+.nav {
+  background-color:#F9F8FE;
+  background-repeat:no-repeat;
+  background-size: 100% 100%;
+  text-align: center;
+}
+
+.nav ul {
+  display: inline-block;
+}
+
+.nav a {
+  color:#778899;
+  font-family: 'Helvetica',sans-serif;
+}
+
+.nav ul li {
+   display: inline-block;
+   margin: 0 70px 70px 0;
+   margin-bottom: 0px;
+}
+
+.jumbotron {
+  background-image:url("IMG_2690_Fotor.JPG");
+  height: 575px;
+  background-size: cover;
+}
+
+.jumbotron h1 {
+  color:#F9F8FE;
+  font-family:'Helvetica',sans-serif;
+  font-weight:bold;
+  font-size:48px;
+  padding-top: 150px;
+}
+
+.jumbotron p {
+  color: #F9F8FE;
+  font-size:32px;
+  font-family:'Helvetica',sans-serif;
+}
+
+
+.other .container {
+  display:inline-block;
+}
+
+.other h3 {
+  font-family:'Helvetica',sans-serif;
+  font-size:28px;
+  color:#778899;
+}
+
+.other p {
+  font-family:'Helvectica',sans-serif;
+}

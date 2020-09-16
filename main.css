@@ -31,6 +31,7 @@ body {
 }
 
 .jumbotron h1 {
+  display: flex;
   color:#F9F8FE;
   font-family:'Helvetica',sans-serif;
   font-weight:bold;
@@ -39,6 +40,7 @@ body {
 }
 
 .jumbotron p {
+  display: flex;
   color: #F9F8FE;
   font-size:32px;
   font-family:'Helvetica',sans-serif;

@@ -1,0 +1,46 @@
+body { font-family:"Source Sans Pro",sans-serif;
+       font-size:20px;
+       padding:28px 28px 28px 28px;
+       background-color:#d7d7d7;
+     }
+
+img { border-radius:8px 8px 8px 8px;
+      max-width: 100%;
+    }
+
+.outerBox {
+    display: flex;
+    justify-content: center;
+}
+
+.pageContainer {
+
+}
+
+.title {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.columnContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.leftColumn {
+    padding:28px 28px 28px 28px;
+    max-width: 500px;
+}
+
+.rightColumn {
+    padding:28px 28px 28px 28px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 200px;
+    min-width: 200px;
+    max-width: 500px;
+}
+

@@ -1,0 +1,152 @@
+body {
+  background-image: linear-gradient(#6495ED,	#191970);
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: row;
+  background-image:url("armstrong_photo.jpg");
+  background-size: cover;
+  height: 575px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 20px;
+}
+
+
+.headerItemLeft{
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.hi {
+  flex-grow: 0;
+  position: relative;
+  top: 45%;
+  left: 15%;
+  font-size: 45pt;
+  font-weight: bold;
+  color: #E6E6FA;
+  font-family: "Rubik", sans-serif;
+}
+
+.intro {
+  position: relative;
+  left: 15%;
+  top: 45%;
+  flex-grow: 0;
+  font-size: 30pt;
+  font-weight: normal;
+  color: #E6E6FA;
+  font-family: "Rubik", sans-serif;
+}
+
+.headerItemRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+.headerRightTop {
+  background: green;
+  height: 40px;
+}
+
+.headerRightBottom {
+  background: purple;
+  height: 40px;
+}
+
+.researchPageContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 1000px;
+  overflow-y:auto;
+}
+
+.researchPageBackground {
+  margin-top: 30px;
+  background-image:url("internal_wave_cartoon.png");
+  opacity: 0.5;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  position: absolute;
+  border-radius: 20px;
+  overflow-y: auto;
+}
+
+.pageTitle {
+  flex-grow: 0;
+  color: #E6E6FA;
+  font-family: "Rubik", sans-serif;
+  font-size: 20pt;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-top: 50px;
+  opacity: 1;
+}
+
+.pageContentContainer {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  opacity: 1;
+}
+
+.pageContent {
+  flex-grow: 1;
+  color: #E6E6FA;
+  font-family: "Rubik", sans-serif;
+  font-size: 14pt;
+  font-weight: normal;
+  margin: 30px;
+  opacity: 1;
+}
+
+.pageContent a {
+  color: #DA70D6;
+  font-family: "Rubik", sans-serif;
+  opacity: 1;
+}
+
+.teachingPageContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  height: 700px;
+  border-radius: 20px;
+  overflow-y: auto;
+}
+
+.teachingPageLeft {
+  width: 50%;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  justify-content: space-between;
+  height: 700px;
+  border-radius: 20px;
+}
+
+.teachingPageRight {
+  flex-grow: 1;
+  width: 50%;
+  margin-top: 7%;
+  height: 700px;
+  overflow-x: auto;
+}
+
+.aboutPageContainer {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 700px;
+  overflow-y: auto;
+  border-radius: 20px;
+}

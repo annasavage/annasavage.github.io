@@ -1,16 +1,33 @@
 body { font-family:"Source Sans Pro",sans-serif;
        font-size:20px;
-       padding:28px 28px 28px 28px;
-       background-color:#d7d7d7;
+       background-color:#d6e2e9;
      }
+
+a:link {
+      color: #1C446C;
+
+}
+
+a {
+      text-decoration: none;
+}
+
+a:visited {
+      color: #1C446C;
+}
 
 img { border-radius:8px 8px 8px 8px;
       max-width: 100%;
     }
 
+a:hover {
+    color: #E58A2B;
+}
+
 .outerBox {
     display: flex;
     justify-content: center;
+    padding:28px 28px 28px 28px;
 }
 
 .pageContainer {
@@ -21,6 +38,10 @@ img { border-radius:8px 8px 8px 8px;
     font-weight: bold;
     font-size: 35px;
     text-align: center;
+    border: solid;
+    border-color: #3A65A3;
+    border-radius: 10px;
+    line-height: 50px;
 }
 
 .columnContainer {
@@ -43,4 +64,3 @@ img { border-radius:8px 8px 8px 8px;
     min-width: 200px;
     max-width: 500px;
 }
-
